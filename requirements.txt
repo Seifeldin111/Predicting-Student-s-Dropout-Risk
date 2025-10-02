@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+scikit-learn
+shap
+scikit-posthocs  
+scikit-ops  
+joblib
