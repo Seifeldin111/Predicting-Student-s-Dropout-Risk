@@ -5,6 +5,8 @@ import shap
 import skops.io as sio
 import skops
 import numpy as np
+pip install imbalanced-learn
+
 
 def load_options(file):
     df = pd.read_csv(file)
