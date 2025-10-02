@@ -9,6 +9,8 @@ import numpy as np
 from pandas.core.interchange.dataframe_protocol import DataFrame
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import RobustScaler, OneHotEncoder
+pip install imbalanced-learn
+
 
 
 def load_options(file):
