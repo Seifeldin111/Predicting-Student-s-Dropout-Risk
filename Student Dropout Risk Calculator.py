@@ -1,4 +1,6 @@
 import streamlit as st
+pip install imbalanced-learn
+
 
 st.title("Student Dropout Risk Prediction App 🎓")
 
