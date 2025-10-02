@@ -8,3 +8,8 @@ joblib==1.5.2
 scipy==1.16.2
 scikit-learn==1.6.1
 imbalanced-learn==0.14.0
+xgboost>=1.7.6
+catboost>=1.2
+lightgbm>=4.0.0
+numpy==2.3.3
+pandas==2.3.3
