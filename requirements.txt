@@ -5,3 +5,4 @@ scikit-learn==1.7.2
 shap==0.48.0
 skops==0.13.0
 joblib==1.5.2
+imbalanced-learn==1.12.1
