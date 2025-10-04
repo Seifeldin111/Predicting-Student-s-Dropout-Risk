@@ -10,7 +10,7 @@ The app consists of two prediction modules:
 
 Both models include **explainable AI (XAI)** using **SHAP**, so you can see which features most influenced the prediction.
 
-# 🚀 Features
+## 🚀 Features
 
   • Predict dropout probability for students **after 1st semester** or **after 2nd semester**.
   
@@ -21,14 +21,14 @@ Both models include **explainable AI (XAI)** using **SHAP**, so you can see whic
   • Modular design for future extension with more models or datasets.
 
 
-# ▶️ Usage
+## ▶️ Usage
 
 Run the app locally:
 
 streamlit run app.py
 
 
-# 📊 Models
+## 📊 Models
 
 The app uses a **VotingClassifier** ensemble with:
 
@@ -42,7 +42,7 @@ The app uses a **VotingClassifier** ensemble with:
 
 Scaling is applied with **RobustScaler**. Models were trained separately for **after 1st semester** and **after 2nd semester** scenarios.
 
-# 🤖 Explainable AI (XAI)
+## 🤖 Explainable AI (XAI)
 
 We use **SHAP (SHapley Additive exPlanations)** to identify the most important features influencing predictions.
 This helps advisors understand **why** the model predicted a certain risk, not just the probability.
