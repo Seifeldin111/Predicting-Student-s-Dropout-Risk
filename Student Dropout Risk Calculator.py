@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title("Student Dropout Risk Prediction App 🎓")
+st.title(" 🎓 Student Dropout Risk Prediction App")
 
 st.markdown("""
     Welcome to the Student Dropout Risk Prediction App! This app helps advisors, teachers, 
