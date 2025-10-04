@@ -5,6 +5,7 @@
 ## The app consists of two prediction modules:
 
   • **After 1st Semester** → Predicts dropout risk using student features and 1st semester performance.
+  
   • **After 2nd Semester** → Predicts dropout risk using features and performance after 2nd semester, for more complete assessment.
 
 Both models include **explainable AI (XAI)** using **SHAP**, so you can see which features most influenced the prediction.
@@ -12,9 +13,13 @@ Both models include **explainable AI (XAI)** using **SHAP**, so you can see whic
 # 🚀 Features
 
   • Predict dropout probability for students **after 1st semester** or **after 2nd semester**.
+  
   • **Explainable AI (SHAP)** to show the top features affecting the model’s decision.
+  
   • **Interactive Streamlit interface** with easy-to-use input fields.
+  
   • Modular design for future extension with more models or datasets.
+
 
 # ▶️ Usage
 
@@ -28,8 +33,11 @@ streamlit run app.py
 ## The app uses a **VotingClassifier** ensemble with:
 
   • Logistic Regression
+  
   • Random Forest Classifier
+  
   • AdaBoost Classifier
+  
   • XGBoost Classifier
 
 ## Scaling is applied with **RobustScaler**. Models were trained separately for **after 1st semester** and **after 2nd semester** scenarios.
