@@ -1,8 +1,8 @@
 # 🎓 Student Dropout Risk Prediction App
 
-## This project is a **Streamlit web application** that predicts the risk of student dropout based on academic and demographic data. It uses **machine learning models** trained on student performance to help advisors, teachers, and administrators identify at-risk students and intervene early.
+This project is a **Streamlit web application** that predicts the risk of student dropout based on academic and demographic data. It uses **machine learning models** trained on student performance to help advisors, teachers, and administrators identify at-risk students and intervene early.
 
-## The app consists of two prediction modules:
+The app consists of two prediction modules:
 
   • **After 1st Semester** → Predicts dropout risk using student features and 1st semester performance.
   
@@ -30,7 +30,7 @@ streamlit run app.py
 
 # 📊 Models
 
-## The app uses a **VotingClassifier** ensemble with:
+The app uses a **VotingClassifier** ensemble with:
 
   • Logistic Regression
   
@@ -40,9 +40,9 @@ streamlit run app.py
   
   • XGBoost Classifier
 
-## Scaling is applied with **RobustScaler**. Models were trained separately for **after 1st semester** and **after 2nd semester** scenarios.
+Scaling is applied with **RobustScaler**. Models were trained separately for **after 1st semester** and **after 2nd semester** scenarios.
 
 # 🤖 Explainable AI (XAI)
 
-## We use **SHAP (SHapley Additive exPlanations)** to identify the most important features influencing predictions.
-## This helps advisors understand **why** the model predicted a certain risk, not just the probability.
+We use **SHAP (SHapley Additive exPlanations)** to identify the most important features influencing predictions.
+This helps advisors understand **why** the model predicted a certain risk, not just the probability.
